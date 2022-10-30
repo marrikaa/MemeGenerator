@@ -1,0 +1,59 @@
+main{
+  padding: 35px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  background :linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  flex-wrap: nowrap; 
+  justify-content: space-between;
+  border-radius: 5px;
+  color: aliceblue;
+  height: 50px;
+  align-items: center;
+}
+
+.left-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+img{
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+
+}
+
+.form{
+   display: grid;
+   grid-template: 40px 40px  / 1fr 1fr ;
+   gap:17px;
+}
+
+.form-input{
+  border-radius:5px ;
+  font-size: larger;
+  border:1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.form-button{
+  grid-column: 1/-1;
+  font-size: larger;
+  border-radius:5px ;
+  border: none;
+  background :linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.form-img{
+  grid-column: 1/-1;
+  height: auto;
+  background :linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  width: 99%;
+}
