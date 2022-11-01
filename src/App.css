@@ -52,8 +52,36 @@ img{
 }
 
 .form-img{
-  grid-column: 1/-1;
   height: auto;
   background :linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
   width: 99%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.memeImg {
+  grid-column: 1/-1;
+  position: relative;
+  text-align: center;
+  color: antiquewhite;
+}
+
+
+.img-topText {
+  position: absolute;
+  top: 45px;
+  left:200px;
+  font-size: 50PX;
+  width: 1000px;
+  overflow-wrap: break-word;
+}
+
+
+.img-bottomText {
+  position: absolute;
+  bottom: 45px;
+  left: 200px;
+  font-size: 50PX;
+  width: 1000px;
+  overflow-wrap: break-word;
 }
